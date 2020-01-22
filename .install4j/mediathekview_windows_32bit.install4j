@@ -575,6 +575,13 @@
             <jreBundle usePack200="false" jreBundleSource="generated">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </windows>
@@ -582,6 +589,13 @@
             <jreBundle jreBundleSource="generated">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </windowsArchive>

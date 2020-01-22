@@ -577,6 +577,13 @@
             <jreBundle jreBundleSource="generated" platform="linux-aarch64">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </unixArchive>
@@ -585,6 +592,13 @@
             <jreBundle jreBundleSource="generated" platform="linux-arm32-vfp-hflt">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </unixArchive>
@@ -593,6 +607,13 @@
             <jreBundle jreBundleSource="generated" platform="linux-x86">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </unixArchive>
@@ -601,6 +622,13 @@
             <jreBundle jreBundleSource="generated" platform="linux-aarch64">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </linuxRPM>
@@ -609,6 +637,13 @@
             <jreBundle jreBundleSource="generated" platform="linux-arm32-vfp-hflt">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </linuxRPM>
@@ -617,6 +652,13 @@
             <jreBundle jreBundleSource="generated" platform="linux-x86">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </linuxRPM>
@@ -625,6 +667,13 @@
             <jreBundle jreBundleSource="generated" platform="linux-aarch64">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </linuxDeb>
@@ -633,6 +682,13 @@
             <jreBundle jreBundleSource="generated" platform="linux-arm32-vfp-hflt">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </linuxDeb>
@@ -641,6 +697,13 @@
             <jreBundle jreBundleSource="generated" platform="linux-x86">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </linuxDeb>
@@ -649,6 +712,13 @@
             <jreBundle usePack200="false" jreBundleSource="generated" platform="linux-aarch64">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </unixInstaller>
@@ -657,6 +727,13 @@
             <jreBundle usePack200="false" jreBundleSource="generated" platform="linux-arm32-vfp-hflt">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </unixInstaller>
@@ -665,6 +742,13 @@
             <jreBundle usePack200="false" jreBundleSource="generated" platform="linux-x86">
                 <modules>
                     <defaultModules set="jre"/>
+                    <module name="javafx.base"/>
+                    <module name="javafx.controls"/>
+                    <module name="javafx.fxml"/>
+                    <module name="javafx.graphics"/>
+                    <module name="javafx.media"/>
+                    <module name="javafx.swing"/>
+                    <module name="javafx.web"/>
                 </modules>
             </jreBundle>
         </unixInstaller>
