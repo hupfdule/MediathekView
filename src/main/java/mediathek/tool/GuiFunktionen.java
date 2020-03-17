@@ -14,6 +14,9 @@ import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
 import java.io.File;
+import mediathek.daten.DatenFilm;
+import mediathek.daten.FilmResolution;
+import org.apache.commons.lang3.time.FastDateFormat;
 
 import static mediathek.tool.Functions.getOs;
 
@@ -46,6 +49,22 @@ public class GuiFunktionen extends MVFunctionSys {
 
     public static void copyToClipboard(String s) {
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new StringSelection(s), null);
+    }
+
+    public static void copyDownloadCmd(final DatenFilm film) {
+      final String uNormal = film.getUrlFuerAufloesung(FilmResolution.AUFLOESUNG_NORMAL);
+      final String uHd = film.getUrlFuerAufloesung(FilmResolution.AUFLOESUNG_HD);
+
+      final String url= uHd != null && !uHd.isBlank() ? uHd : uNormal;
+      final String subDir= film.getThema().replaceAll("\\s+", "_");
+      final FastDateFormat df= FastDateFormat.getInstance("yyyy-MM-dd");
+      final String date= df.format(film.getDatumFilm());
+      final String titel= film.getTitle();
+      final String ext= url.substring(url.lastIndexOf('.'));
+
+      final String cmd= "mkdir -p ./" + subDir +" && wget -c --tries inf -O ./" + subDir + "/'" + date + " - " + titel + ext + "' " + url;
+
+      Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new StringSelection(cmd), null);
     }
 
     /**

@@ -972,6 +972,11 @@ public class GuiFilme extends AGuiTabPanel {
                 if (!uNormal.isEmpty()) {
                     jPopupMenu.addSeparator();
 
+                    final ActionListener copyDownloadCmd = e -> GuiFunktionen.copyToClipboard(film.getUrlFuerAufloesung(FilmResolution.AUFLOESUNG_NORMAL));
+                    item = new JMenuItem("Download Cmd kopieren");
+                    item.addActionListener(e -> GuiFunktionen.copyDownloadCmd(film));
+                    jPopupMenu.add(item);
+
                     final ActionListener copyNormalUrlListener = e -> GuiFunktionen.copyToClipboard(film.getUrlFuerAufloesung(FilmResolution.AUFLOESUNG_NORMAL));
                     if (!uHd.isEmpty() || !uLow.isEmpty()) {
                         JMenu submenueURL = new JMenu("Film-URL kopieren");
